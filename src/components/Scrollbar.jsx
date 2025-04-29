@@ -22,7 +22,7 @@ const Scrollbar = () => {
           </div>
       {/* third */}
       <div className='grid w-[300px] md:w-[400px]  lg:w-[500px] shrink-0 hover:scale-95 ease-in-out mx-4 md:mx-8 lg:mx-12 ' >
-            <div className=' h-[350px] rounded-lg bg-center bg-cover bg-[url("public/suv.jpg")] ' ></div>
+            <div className=' h-[350px] rounded-lg bg-center bg-cover bg-[url("/suv.jpg")] ' ></div>
             <div className='flex flex-col gap-y-3 my-4 ' > <h2 className=' px-2 font-bold text-xl ' >Mercedes-Benz M-Class</h2> 
             <p className='px-2 font-bold  '>&#8377;   25000/day</p>
             <button className='flex mx-2 bg-blue-700 rounded-sm px-4 py-2 font-semibold w-fit ' >Book Now</button>
